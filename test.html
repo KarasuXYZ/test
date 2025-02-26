@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            transition: all 0.5s ease;
+        }
+        .section img {
+            max-width: 40%;
+            height: auto;
+        }
+        .section.reverse {
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body id="body-3">
+    <div class="section" id="section-1">
+        <div class="text">This is some text on the left.</div>
+        <img src="path/to/image.jpg" alt="Image on the right">
+    </div>
+    <script>
+        setInterval(() => {
+            document.getElementById('section-1').classList.toggle('reverse');
+        }, 3000);
+    </script>
+</body>
+</html>

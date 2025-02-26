@@ -1,0 +1,121 @@
+#body-1{
+/*  background: linear-gradient(135deg, #b6cf51, #400973);  */
+  background: linear-gradient(135deg, #6a11cb, #174391); 
+  color: #FFFFFF;
+  line-height: 1.6;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+#body-2{
+  background: linear-gradient(135deg, #3a0d91, #0d1b3a); 
+  color: #FFFFFF;
+  line-height: 1.6;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+#body-3{
+  background: linear-gradient(135deg, #9b6cfb, #4a91f1); 
+  color: #FFFFFF;
+  line-height: 1.6;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+#important{
+    /* box-shadow: 5px 5px 10px gray; */
+    /*mała notatka ode mnie: na początku tworzenia projektu pamiętałem jak się nazywał margines wewnętrzy ale zapomniałem wewnętrznego a teraz sobie przypomniałem jak się robi wewnętrzne a zapomniałem zewnętrze i podczas pisania tego przypomniałem sobie xDDD. margin i padding
+    dochodzę do wniosku że muszę zacząć dbać lepiej o moją pamięć */
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;  
+    align-items: center ;
+    font-size: 48px;
+    width: 100%;
+}
+#form,#form2{
+  margin-top: 100px;
+    display: flex;
+    justify-content: center; 
+    font-size: 24px;
+    align-items: center ;
+}
+label, input{
+  margin: 5px;
+}
+
+button{
+  display: flex;
+    justify-content: center;  
+    align-items: center ;
+    font-size: 28px;
+    float: left;
+    padding: 10px 20px;
+    background-color: #4c74af; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #455ca0; 
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); */
+  text-align: center; /* może zostać zmienione */
+  width: 80%;
+  font-size: 18px; 
+  font-family: Arial, sans-serif; 
+}
+#photo-l{
+  float: left;
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 450px;
+}
+#photo-r{
+  float: right;
+  margin-left: 50px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#tekst-l{
+  float: left;
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#tekst-r{
+  float: right;
+  margin-left: 50px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#block-l {
+  float: left;
+  width: 45%;
+  margin: 50px;
+}
+
+#block-r {
+  float: right;
+  width: 45%;
+  margin: 50px;
+}
