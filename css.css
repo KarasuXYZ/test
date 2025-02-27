@@ -77,18 +77,21 @@ main{
   font-size: 18px; 
   font-family: Arial, sans-serif; 
 }
-#photo-l{
+#photo-l, #photo-r{
   float: left;
   margin: 2%;
   height: auto;
   width: 100%;
+  filter: blur(5px);
+  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
-#photo-r{
-  float: right;
-  margin: 2%;
-  height: auto;
-  width: 100%;
+
+#photo-l:hover, #photo-r:hover{
+  filter: blur(0);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 #tekst-l{
   float: left;
   margin: 2%;
