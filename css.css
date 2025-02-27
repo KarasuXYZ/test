@@ -3,7 +3,7 @@
   background: linear-gradient(135deg, #6a11cb, #174391); 
   color: #FFFFFF;
   line-height: 1.6;
-  padding: 20px;
+  padding: 2%;
   font-family: Arial, sans-serif;
   font-size: 24px;
 }
@@ -12,7 +12,7 @@
   background: linear-gradient(135deg, #3a0d91, #0d1b3a); 
   color: #FFFFFF;
   line-height: 1.6;
-  padding: 20px;
+  padding: 2%;
   font-family: Arial, sans-serif;
   font-size: 24px;
 }
@@ -21,7 +21,7 @@
   background: linear-gradient(135deg, #9b6cfb, #4a91f1); 
   color: #FFFFFF;
   line-height: 1.6;
-  padding: 20px;
+  padding: 2%;
   font-family: Arial, sans-serif;
   font-size: 24px;
 }
@@ -30,7 +30,7 @@
     /* box-shadow: 5px 5px 10px gray; */
     /*mała notatka ode mnie: na początku tworzenia projektu pamiętałem jak się nazywał margines wewnętrzy ale zapomniałem wewnętrznego a teraz sobie przypomniałem jak się robi wewnętrzne a zapomniałem zewnętrze i podczas pisania tego przypomniałem sobie xDDD. margin i padding
     dochodzę do wniosku że muszę zacząć dbać lepiej o moją pamięć */
-    margin-top: 150px;
+    margin-top: 10%;
     display: flex;
     justify-content: center;  
     align-items: center ;
@@ -38,14 +38,14 @@
     width: 100%;
 }
 #form,#form2{
-  margin-top: 100px;
+  margin-top: 5%;
     display: flex;
     justify-content: center; 
     font-size: 24px;
     align-items: center ;
 }
 label, input{
-  margin: 5px;
+  margin: 0.5%;
 }
 
 button{
@@ -54,7 +54,7 @@ button{
     align-items: center ;
     font-size: 28px;
     float: left;
-    padding: 10px 20px;
+    padding: 1% 2%;
     background-color: #4c74af; 
     color: white; 
     border: none; 
@@ -79,45 +79,37 @@ main{
 }
 #photo-l{
   float: left;
-  margin-left: 150px;
-  margin-right: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 500px;
-  width: 750px;
+  margin: 2%;
+  height: auto;
+  width: 100%;
 }
 #photo-r{
   float: right;
-  margin-left: 50px;
-  margin-right: 150px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 500px;
-  width: 750px;
+  margin: 2%;
+  height: auto;
+  width: 100%;
 }
 #tekst-l{
   float: left;
-  margin-left: 150px;
-  margin-right: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 2%;
 }
 #tekst-r{
   float: right;
-  margin-left: 50px;
-  margin-right: 150px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 2%;
 }
 
 #block-l {
   float: left;
   width: 45%;
-  margin: 50px;
+  margin: 2.5%;
 }
 
 #block-r {
   float: right;
   width: 45%;
-  margin: 50px;
+  margin: 2.5%;
+}
+br{
+  clear: both;
+  
 }
