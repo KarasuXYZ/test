@@ -22,6 +22,9 @@ form2.addEventListener("submit", function(event) {
     else if(imie.value === "test" && nazwisko.value === "test") {
         window.location.href = "test.html"; 
     }
+    else if(imie.value === "Pragne" && nazwisko.value === "Cie") {
+        window.location.href = "PragneCie.html"; 
+    }
     else {
         alert("Sebuś nie ma dla ciebie wiadomości");
     }

@@ -26,6 +26,51 @@
   font-size: 24px;
 }
 
+#body-4{
+  background: linear-gradient(135deg, #dc0b08, #370210); 
+  color: #FFFFFF;
+  line-height: 1.6;
+  padding: 2%;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-500%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(140%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-140%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(2500%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 #important{
     /* box-shadow: 5px 5px 10px gray; */
     /*mała notatka ode mnie: na początku tworzenia projektu pamiętałem jak się nazywał margines wewnętrzy ale zapomniałem wewnętrznego a teraz sobie przypomniałem jak się robi wewnętrzne a zapomniałem zewnętrze i podczas pisania tego przypomniałem sobie xDDD. margin i padding
@@ -36,6 +81,7 @@
     align-items: center ;
     font-size: 48px;
     width: 100%;
+    animation: slideDown 2s ease-out;
 }
 #form,#form2{
   margin-top: 5%;
@@ -105,13 +151,20 @@ main{
   float: left;
   width: 45%;
   margin: 2.5%;
+  animation: slideInFromLeft 3s cubic-bezier(0.25, 0.1, 0.25, 1.0);
 }
 
 #block-r {
   float: right;
   width: 45%;
   margin: 2.5%;
+  animation: slideInFromRight 3s cubic-bezier(0.25, 0.1, 0.25, 1.0);
 }
+
+#form2 {
+  animation: slideUp 5s ease-out;
+}
+
 br{
   clear: both;
   
