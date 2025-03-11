@@ -24,6 +24,8 @@ form2.addEventListener("submit", function(event) {
     }
     else if(imie.value === "Pragne" && nazwisko.value === "Cie") {
         window.location.href = "PragneCie.html"; 
+    }else if(imie.value === "Windows" && nazwisko.value === "Windows") {
+        window.location.href = "https://www.windows93.net"; 
     }
     else {
         alert("Sebuś nie ma dla ciebie wiadomości");
