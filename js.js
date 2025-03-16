@@ -20,9 +20,9 @@ form2.addEventListener("submit", function(event) {
         window.location.href = "Anna.html"; 
     }
     else if(imie.value === "test" && nazwisko.value === "test") {
-        window.location.href = "test.html"; 
+        window.open("test.html")  ; 
     }
-    else if(imie.value === "Pragne" && nazwisko.value === "Cie") {
+    else if(imie.value === "Nudeski" && nazwisko.value === "Nudeski") {
         window.location.href = "PragneCie.html"; 
     }else if(imie.value === "Windows" && nazwisko.value === "Windows") {
         window.location.href = "https://www.windows93.net"; 

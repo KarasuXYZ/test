@@ -44,6 +44,18 @@
   background-size: 550% 550%;
 
 }
+
+#body-5{
+  background: linear-gradient(100deg, #731b7c, #b31b44, #8a0366); 
+  color: #FFFFFF;
+  line-height: 1.6;
+  padding: 2%;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  animation: gradientAnimation 15s ease infinite;
+  background-size: 550% 550%;
+
+}
 @keyframes gradientAnimation {
   0% {
       background-position: 0% 50%;
@@ -189,4 +201,51 @@ main{
 br{
   clear: both;
   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.typed-text {
+    font-size: 24px;
+}
+
+img#kominek {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img#kominek:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1, p {
+    text-align: center;
+    margin: 20px;
+}
+
+.ukryte{
+  filter: blur(100px);
+}
+.ukryte:hover{
+
+  filter: blur(1px);
 }
