@@ -115,6 +115,7 @@
     font-size: 48px;
     width: 100%;
     animation: slideDown 2s ease-out;
+    
 }
 #form,#form2{
   margin-top: 5%;
@@ -129,21 +130,21 @@ label, input{
 
 button{
   display: flex;
-    justify-content: center;  
-    align-items: center ;
-    font-size: 28px;
-    float: left;
-    padding: 1% 2%;
-    background-color: #4c74af; 
-    color: white; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
+  justify-content: center;  
+  align-items: center ;
+  font-size: 28px;
+  float: left;
+  padding: 1% 2%;
+  background-color: #4c74af; 
+  color: white; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
 button:hover {
-    background-color: #455ca0; 
+  background-color: #455ca0; 
 }
 main{
   display: flex;
@@ -230,6 +231,7 @@ img#kominek {
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px; 
 }
 
 img#kominek:hover {
@@ -248,4 +250,8 @@ h1, p {
 .ukryte:hover{
 
   filter: blur(1px);
+}
+
+img {
+  border-radius: 10px; 
 }

@@ -32,5 +32,17 @@ form2.addEventListener("submit", function(event) {
     }
 });
 
+function muzyka(prop) {
+    if(prop==1)
+     window.location.href = "https://youtu.be/3ah4t1P9yFA?si=jcF_Tu3aYVc3j1Xw";
+    else if(prop==2)
+        window.location.href = "index.html";
+    else if(prop==3)
+        window.location.href = 'Nudeski.html';
+    else if(prop==4)
+        window.location.href = "https://youtu.be/gtdjggvaqsg?si=Kg2bK8q82OfH0EmR"
 
+    
+    
+}
 
