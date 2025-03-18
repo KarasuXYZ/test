@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 window.location.href = "https://karasuxyz.github.io/test/";
             } else {
                 setTimeout(() => {
-                    alert("Źle ułożone! Resetuję układ...");
+                    alert("Źle ułożonaś, już blisko jesteś...");
                     resetGame();
                 }, 300);
             }
