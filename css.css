@@ -5,7 +5,7 @@
   line-height: 1.6;
   padding: 2%;
   font-family: 'Space Mono', monospace;
-  font-size: 20px;
+  font-size: 24px;
   animation: gradientAnimation 15s ease infinite;
   background-size: 550% 550%;
 }
@@ -16,7 +16,7 @@
   line-height: 1.6;
   padding: 2%;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   animation: gradientAnimation 15s ease infinite;
   background-size: 550% 550%;
 }
@@ -27,7 +27,7 @@
   line-height: 1.6;
   padding: 2%;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   animation: gradientAnimation 15s ease infinite;
   background-size: 550% 550%;
 
@@ -39,7 +39,7 @@
   line-height: 1.6;
   padding: 2%;
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   animation: gradientAnimation 15s ease infinite;
   background-size: 550% 550%;
 
@@ -51,7 +51,7 @@
   line-height: 1.6;
   padding: 2%;
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   animation: gradientAnimation 15s ease infinite;
   background-size: 550% 550%;
 
