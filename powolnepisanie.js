@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const words = ["Kliknij mnie dwa razy", "A zonaczysz co pragniesz","MMMMMMmmmmm","Nudeskiii","Poka dupe"];
+    const words = ["Kliknij mnie dwa razy", "A zobaczysz co pragniesz","MMMMMMmmmmm","Nudeskiii","Poka dupe"];
 
     let wordIndex = 0;
     let charIndex = 0;
